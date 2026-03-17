@@ -28,7 +28,7 @@ dependencies = [
 ]
 
 # Compilation warnings in GCC 11, cf. https://github.com/zeromq/libzmq/issues/4178
-# Needto disable warnings as errors.
+# Need to disable warnings as errors.
 configopts = "--with-pic --with-pgm --with-libsodium --disable-Werror"
 
 
